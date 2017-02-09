@@ -28,14 +28,14 @@
  
  <distributionManagement>
     <repository>
-      <id>maven-releases</id>
-      <name>maven-releases</name>
-      <url>http://localhost:8091/content/repositories/maven-releases/</url>
+      <id>devops4-releases</id>
+      <name>devops4-releases</name>
+      <url>http://nexus.example.com:8081/nexus/content/repositories/devops4-releases</url>
     </repository>
     <snapshotRepository>
-      <id>maven-snapshots</id>
-      <name>maven-snapshots</name>
-      <url>http://localhost:8091/content/repositories/maven-snapshots/</url>
+      <id>devops4-snapshot</id>
+      <name>devops4-snapshot</name>
+      <url>http://nexus.example.com:8081/content/repositories/devops4-snapshot</url>
     </snapshotRepository>
   </distributionManagement>
 
