@@ -35,7 +35,7 @@
     <snapshotRepository>
       <id>devops5-snapshot</id>
       <name>devops5-snapshot</name>
-      <url>http://nexus.example.com:8081/nexus/content/repositories/devops5-snapshot</url>
+      <url>http://nexus.example.com:8081/nexus/content/repositories/devops5-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
 
