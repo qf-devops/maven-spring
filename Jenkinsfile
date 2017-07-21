@@ -1,5 +1,5 @@
 env.mvnHome = '/home/vagrant/tools/maven'
-node('mslave.example.com') {
+node('mslave') {
    //def mvnHome
    
    stage('Preparation') { // for display purposes
