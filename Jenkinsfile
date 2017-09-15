@@ -20,4 +20,6 @@ node('mavenslave'){
       junit '**/target/surefire-reports/TEST-*.xml'
       archive 'target/*.jar'
    }
+   stage('mail notification') {
+    mail bcc: '', body: 'test', cc: '', from: '', replyTo: '', subject: 'test', to: 'raviaare@gmail.com'
 }
