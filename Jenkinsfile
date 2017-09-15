@@ -22,4 +22,5 @@ node('mavenslave'){
    }
    stage('mail notification') {
     mail bcc: '', body: 'test', cc: '', from: '', replyTo: '', subject: 'test', to: 'raviaare@gmail.com'
+   }
 }
