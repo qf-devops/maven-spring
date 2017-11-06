@@ -1,5 +1,5 @@
-env.mvnHome = '/home/vagrant/tools/maven'
-node('mslave') {
+env.mvnHome = '/home/ubuntu/maven'
+node('jenkins-slave') {
    //def mvnHome
    
    stage('Preparation') { // for display purposes
