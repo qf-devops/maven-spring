@@ -28,14 +28,14 @@
  
  <distributionManagement>
     <repository>
-      <id>springexample-releases</id>
-      <name>springexample-releases</name>
-      <url>http://ec2-18-216-22-199.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/springexample-releases/</url>
+      <id>devops12-releases</id>
+      <name>devops12-releases</name>
+      <url>http://ec2-18-221-188-33.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/devops12-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>springexample-snapshots</id>
-      <name>springexample-releases</name>
-      <url>http://ec2-18-216-22-199.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/springexample-snapshots/</url>
+      <id>devops12-snapshot</id>
+      <name>devops12-snapshot</name>
+      <url>http://ec2-18-221-188-33.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/devops12-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
 
