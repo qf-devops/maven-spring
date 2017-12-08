@@ -21,11 +21,8 @@
 		<groupId>org.springframework</groupId>
 		<artifactId>spring</artifactId>
 		<version>2.5.6</version>
-	</dependency>
-    
-    
+	</dependency> 
   </dependencies>
- 
  <distributionManagement>
     <repository>
       <id>devops-releases</id>
@@ -38,5 +35,4 @@
       <url>http://ec2-18-217-220-234.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/devops-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
-
 </project>
