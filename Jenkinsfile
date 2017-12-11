@@ -1,5 +1,5 @@
 env.mvnHome = '/usr/share/maven3'
-node('jenkins-slave') {
+node {
    //def mvnHome
    
    stage('Preparation') { // for display purposes
