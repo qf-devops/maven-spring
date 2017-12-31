@@ -1,5 +1,5 @@
-env.mvnHome = '/usr/share/maven3'
-node {
+env.mvnHome = '/home/ubuntu/maven'
+node('mavenlabel') {
    //def mvnHome
    
    stage('Preparation') { // for display purposes
