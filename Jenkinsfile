@@ -1,12 +1,12 @@
 env.mvnHome = '/home/ubuntu/maven'
 node('mavenlabel') {
-   //def mvnHome
+   
    
    stage('Preparation') { // for display purposes
       
       git 'https://github.com/jglick/simple-maven-project-with-tests.git'
         
-      //mvnHome = $M3
+      
    }
    stage('Build') {
       
