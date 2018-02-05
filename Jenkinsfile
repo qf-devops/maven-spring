@@ -20,4 +20,19 @@ node('mavenlabel') {
       junit '**/target/surefire-reports/TEST-*.xml'
       archive 'target/*.jar'
    }
+   stage("build & SonarQube analysis") {
+          node {
+              withSonarQubeEnv('My SonarQube Server') {
+                 sh '${mvnHome}/bin/mvn sonar:sonar'
+              }
+          }
+      }
+stage("SonarQube Quality Gate") { 
+        timeout(time: 1, unit: 'HOURS') { 
+           def qg = waitForQualityGate() 
+           if (qg.status != 'OK') {
+             error "Pipeline aborted due to quality gate failure: ${qg.status}"
+           }
+        }
+    }
 }
