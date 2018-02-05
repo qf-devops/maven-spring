@@ -27,12 +27,12 @@
     <repository>
       <id>visacard-releases</id>
       <name>visacard-releases</name>
-      <url>http://ec2-18-218-175-7.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/visacard-releases/</url>
+      <url>http://ec2-18-218-156-120.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/visacard-releases/</url>
     </repository>
     <snapshotRepository>
       <id>visacard-snapshots</id>
       <name>visacard-snapshots</name>
-      <url>http://ec2-18-218-175-7.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/visacard-snaphots/</url>
+      <url>http://ec2-18-218-156-120.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/visacard-snaphots/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
