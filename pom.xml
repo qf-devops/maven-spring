@@ -25,14 +25,14 @@
   </dependencies>
  <distributionManagement>
     <repository>
-      <id>devops-releases</id>
-      <name>devops-releases</name>
-      <url>http://ec2-18-221-201-246.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/devops-releases/</url>
+      <id>spring-releases</id>
+      <name>spring-releases</name>
+      <url>http://ec2-13-59-239-180.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/spring-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>devops-snapshots</id>
-      <name>devops-snapshots</name>
-      <url>http://ec2-18-221-201-246.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/devops-snapshots/</url>
+      <id>spring-snapshots</id>
+      <name>spring-snapshots</name>
+      <url>http://ec2-13-59-239-180.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/spring-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
