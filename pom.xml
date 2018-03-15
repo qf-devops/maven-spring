@@ -23,6 +23,9 @@
 		<version>2.5.6</version>
 	</dependency> 
   </dependencies>
+<profiles>
+<profile>
+     <id>spring-deploy</id>
  <distributionManagement>
     <repository>
       <id>spring-releases</id>
@@ -35,4 +38,21 @@
       <url>http://ec2-13-59-49-243.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/spring-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
+</profile>
+	<profile>
+     <id>vcard-deploy</id>
+ <distributionManagement>
+    <repository>
+      <id>vcard-releases</id>
+      <name>vcard-releases</name>
+      <url>http://ec2-13-59-49-243.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/vcard-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>vcard-snapshots</id>
+      <name>vcard-snapshots</name>
+      <url>http://ec2-13-59-49-243.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/vcard-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+</profile>
+  </profiles>
 </project>
