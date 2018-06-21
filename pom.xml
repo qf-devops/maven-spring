@@ -26,17 +26,6 @@
     
   </dependencies>
  
- <distributionManagement>
-    <repository>
-      <id>xcard-releases</id>
-      <name>xcard-releases</name>
-      <url>http://ec2-13-127-253-157.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/xcard-releases/</url>
-    </repository>
-    <snapshotRepository>
-      <id>xcard-snapshots</id>
-      <name>xcard-snapshots</name>
-      <url>http://ec2-13-127-253-157.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/xcard-snapshots/</url>
-    </snapshotRepository>
-  </distributionManagement>
+ 
 
 </project>
