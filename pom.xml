@@ -12,7 +12,7 @@
     <repository>
       <id>my-repo2</id>
       <name>public</name>
-      <url>http://ec2-13-232-123-54.ap-south-1.compute.amazonaws.com:8081/nexus/content/groups/public/</url>
+      <url>http://ec2-13-127-212-24.ap-south-1.compute.amazonaws.com:8081/nexus/content/groups/public/</url>
     </repository>
     <repository>
       <id>my-repo1</id>
