@@ -1,7 +1,7 @@
 node('maven-agents') {
    def mvnHome = '/usr/share/maven'
    stage('Preparation') { // for display purposes
-      git 'https://github.com/quickfixtech/maven-spring.git'       
+      git branch: '${branch}', url: 'https://github.com/quickfixtech/maven-spring.git'       
       
    }
    stage('Build') {
