@@ -16,6 +16,11 @@
       <username>spring-user</username>
       <password>spring123</password>
     </server>
+    <server>
+      <id>my-app-user</id>
+      <username>my-app-user</username>
+      <password>my-app-user</password>
+    </server>
   </servers>
     <profiles>
     <profile>
