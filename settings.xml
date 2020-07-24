@@ -8,13 +8,13 @@
   <servers>
     <server>
       <id>spring-releases</id>
-      <username>spring-user</username>
-      <password>spring123</password>
+      <username>admin</username>
+      <password>admin123</password>
     </server>
     <server>
-      <id>spring-snapshots</id>
-      <username>spring-user</username>
-      <password>spring123</password>
+      <id>spring-releases</id>
+      <username>admin</username>
+      <password>admin123</password>
     </server>
   </servers>
     <profiles>
