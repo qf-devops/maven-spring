@@ -42,12 +42,12 @@
     <repository>
       <id>spring-releases</id>
       <name>spring-releases</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/spring-releases/</url>
+      <url>http://ip-172-31-67-36.ec2.internal:8081/artifactory/content/repositories/spring-releases/</url>
     </repository>
     <snapshotRepository>
       <id>spring-snapshots</id>
       <name>spring-snapshots</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/spring-snapshots/</url>
+      <url>http://ip-172-31-67-36.ec2.internal:8081/artifactory/content/repositories/spring-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </profile>
