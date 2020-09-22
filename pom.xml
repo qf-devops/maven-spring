@@ -10,11 +10,6 @@
 
   <repositories>
     <repository>
-      <id>my-repo2</id>
-      <name>public</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/groups/public/</url>
-    </repository>
-    <repository>
       <id>my-repo1</id>
       <name>your custom repo</name>
       <url>http://maven.apache.org</url>
@@ -39,12 +34,12 @@
     <repository>
         <id>central</id>
         <name>b26020f18ac6-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release</url>
+        <url>http://172.17.0.2:8081/artifactory/libs-release</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>b26020f18ac6-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot</url>
+        <url>http://172.17.0.2:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
