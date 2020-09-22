@@ -1,0 +1,13 @@
+Docker run -i -t -d  -p 8080:8080 jenkins/jenkins:lts
+
+
+docker run -d --name artifactory \
+-v $PWD/data:/var/opt/jfrog/artifactory
+-p 8081:8081
+goodrainapps/artifactory-oss
+
+https://hub.docker.com/r/goodrainapps/artifactory-oss
+
+
+
+docker run -d -p 8089:8081 --name nexus1 sonatype/nexus3
