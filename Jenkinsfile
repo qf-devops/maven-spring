@@ -8,13 +8,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                
-                git 'https://github.com/jglick/simple-maven-project-with-tests.git'
-
-                
-                sh "mvn -Dmaven.test.failure.ignore=true clean deploy"
-
-               
+                git branch: 'test', url: 'https://github.com/quickfixtech/maven-spring.git'
+                sh "mvn -Dmaven.test.failure.ignore=true clean deploy"               
             }
 
             post {
