@@ -34,12 +34,12 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>17ee0a9de19b-snapshots</name>
-        <url>http://10.0.0.4:8081/artifactory/libs-snapshot</url>
+        <url>http://172.17.0.3:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
 	<repository>
         <id>central</id>
         <name>17ee0a9de19b-releases</name>
-        <url>http://10.0.0.4:8081/artifactory/libs-release</url>
+        <url>http://172.17.0.3:8081/artifactory/libs-release</url>
     </repository>
 </distributionManagement>
 </project>
