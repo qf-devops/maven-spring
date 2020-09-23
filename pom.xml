@@ -33,13 +33,13 @@
 <distributionManagement>
     <repository>
         <id>central</id>
-        <name>f1c5733b69da-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release</url>
+        <name>17ee0a9de19b-releases</name>
+        <url>http://23.96.125.182:8081/artifactory/libs-release</url>
     </repository>
-    <snapshotRepository>
+      <snapshotRepository>
         <id>snapshots</id>
-        <name>f1c5733b69da-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot</url>
+        <name>17ee0a9de19b-snapshots</name>
+        <url>http://23.96.125.182:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>	
 </distributionManagement>
 </project>
