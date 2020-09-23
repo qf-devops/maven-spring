@@ -14,3 +14,9 @@ https://hub.docker.com/r/goodrainapps/artifactory-oss
 
 
 docker run -d -p 8089:8081 --name nexus1 sonatype/nexus3
+
+
+
+ref for jenkin sfile with docker agent:
+ https://www.jenkins.io/doc/book/pipeline/docker/
+ 
