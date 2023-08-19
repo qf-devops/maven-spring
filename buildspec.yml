@@ -1,0 +1,28 @@
+version: 0.2
+
+env:
+  variables:
+    JAVA_HOME: "/usr/lib/jvm/java-11-openjdk-amd64"
+
+phases:
+  install:
+    commands:
+    - echo installing maven...
+    - apt-get update -y
+    - apt-get install openjdk-11-jdk -y
+    - java -version
+    - apt-get install -y maven
+  build:
+    commands:
+    - echo building the justiceleague-tracker
+    - mvn package
+artifacts:
+  files:
+  - target/*.jar
+  - scripts/*.sh
+  - appspec.yml
+  discard-paths: yes
+
+cache:
+  paths:
+  - '/root/.m2/**/*'
